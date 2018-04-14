@@ -14,7 +14,6 @@ class GoalsVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
     }
     
     @IBAction func addGoalBtnWasPressed(_ sender: Any) {
