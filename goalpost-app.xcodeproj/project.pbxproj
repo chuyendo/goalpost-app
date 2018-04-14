@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		040E44DA2081EB1400629F83 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E44D92081EB1400629F83 /* GoalCell.swift */; };
+		044F8F7F2082042D007BAFE1 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F8F7E2082042D007BAFE1 /* GoalType.swift */; };
 		04724351207FB7A0000E98E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04724350207FB7A0000E98E8 /* AppDelegate.swift */; };
 		04724353207FB7A0000E98E8 /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04724352207FB7A0000E98E8 /* GoalsVC.swift */; };
 		04724356207FB7A0000E98E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04724354207FB7A0000E98E8 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		040E44D92081EB1400629F83 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
+		044F8F7E2082042D007BAFE1 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 		0472434D207FB7A0000E98E8 /* goalpost-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "goalpost-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04724350207FB7A0000E98E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04724352207FB7A0000E98E8 /* GoalsVC.swift */ = {isa = PBXFileReference; indentWidth = 5; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 		04724367207FB7B8000E98E8 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				044F8F7E2082042D007BAFE1 /* GoalType.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				040E44DA2081EB1400629F83 /* GoalCell.swift in Sources */,
+				044F8F7F2082042D007BAFE1 /* GoalType.swift in Sources */,
 				04724353207FB7A0000E98E8 /* GoalsVC.swift in Sources */,
 				04724351207FB7A0000E98E8 /* AppDelegate.swift in Sources */,
 				04724359207FB7A0000E98E8 /* goalpost_app.xcdatamodeld in Sources */,
